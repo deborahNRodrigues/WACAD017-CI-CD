@@ -13,12 +13,12 @@ on: workflow_dispatch
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   first-job:
-	runs-on: ubuntu-latest
-	steps:
-  	- name: Diga oi
-    	run: echo "Hello World!"
-  	- name: Diga valeu
-    	run: echo "Valeu - bye!"
+runs-on: ubuntu-latest
+steps:
+- name: Diga oi
+run: echo "Hello World!"
+- name: Diga valeu
+run: echo "Valeu - bye!"
 
   
 
